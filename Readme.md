@@ -1,10 +1,10 @@
 # 🧠 MNIST CNN Image Classifier
 
-This project is a digit recognition web application built using a Convolutional Neural Network (CNN) trained on the MNIST dataset. The model is deployed using Gradio and hosted on [Hugging Face Spaces](https://huggingface.co/spaces/Rushikesh-S-Ware/MNIST-CNN-Image-Classifier), allowing users to upload an image and receive a predicted digit (0-9) in real-time.
+This project is a digit recognition web application built using a Convolutional Neural Network (CNN) trained on the MNIST dataset. The model is deployed using Gradio and hosted on [Hugging Face Spaces](https://huggingface.co/spaces/Rushikesh-S-Ware/Deep-Learning-for-Digit-Recognition), allowing users to upload an image and receive a predicted digit (0-9) in real-time.
 
 ## 🌐 Live Demo
 
-👉 [Check out the live demo on Hugging Face Spaces](https://huggingface.co/spaces/Rushikesh-S-Ware/MNIST-CNN-Image-Classifier)
+👉 [Check out the live demo on Hugging Face Spaces](https://huggingface.co/spaces/Rushikesh-S-Ware/Deep-Learning-for-Digit-Recognition)
 
 ---
 
