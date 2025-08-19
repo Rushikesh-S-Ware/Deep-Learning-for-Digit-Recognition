@@ -1,4 +1,4 @@
-# 🧠 MNIST CNN Image Classifier - AIT736 Project
+# 🧠 MNIST CNN Image Classifier
 
 This project is a digit recognition web application built using a Convolutional Neural Network (CNN) trained on the MNIST dataset. The model is deployed using Gradio and hosted on [Hugging Face Spaces](https://huggingface.co/spaces/Rushikesh-S-Ware/MNIST-CNN-Image-Classifier), allowing users to upload an image and receive a predicted digit (0-9) in real-time.
 
@@ -10,17 +10,17 @@ This project is a digit recognition web application built using a Convolutional 
 
 ## 📁 Project Structure
 
-| File Name | Description |
-|----------|-------------|
-| `AIT736_Project_Group3.ipynb` | Jupyter Notebook with data loading, model training, and evaluation |
-| `app.py` | Gradio app script to load model and serve predictions from uploaded images |
-| `digit_model.pth` | Trained CNN model checkpoint file |
-| `classification_report.txt` | Precision, recall, F1-score for each digit class |
-| `confusion_matrix.png` | Confusion matrix visualized for test results |
-| `training_curves.png` | Training and validation loss/accuracy graphs |
-| `requirements.txt` | Python dependencies required for the app |
-| `Final Project Presentation AIT736.pdf` | Final report of the project outlining methodology and results |
-| `AIT736_Group3_ProjectPresentation.pptx` | Supporting PowerPoint presentation |
+| File Name                                 | Description                                                                 |
+|------------------------------------------|-----------------------------------------------------------------------------|
+| `MNIST_Digit_Classifier_Training.ipynb`      | Jupyter Notebook with data loading, model training, and evaluation         |
+| `app.py`                                 | Gradio app script to load model and serve predictions from uploaded images |
+| `digit_model.pth`                        | Trained CNN model checkpoint file                                          |
+| `digit_classification_report.txt`       | Precision, recall, F1-score for each digit class                           |
+| `confusion_matrix.png`                  | Confusion matrix visualized for test results                               |
+| `training_loss_accuracy_curve.png`      | Training and validation loss/accuracy graphs                               |
+| `requirements.txt`                      | Python dependencies required for the app                                   |
+| `Final_Report_MNIST_Classification.pdf` | Final report of the project outlining methodology and results              |
+| `Presentation_Model_Accuracy_MNIST.pptx`| Supporting PowerPoint presentation                                         |
 
 ---
 
