@@ -55,7 +55,7 @@ This project is a digit recognition web application built using a Convolutional 
 
 ## 🛠 Setup Instructions (For Local Use)
 
-1. Clone the repository:
+1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/MNIST-CNN-Image-Classifier.git
-   cd MNIST-CNN-Image-Classifier
+   git clone https://github.com/Rushikesh-S-Ware/Deep-Learning-for-Digit-Recognition.git
+   cd Deep-Learning-for-Digit-Recognition
