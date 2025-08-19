@@ -1,0 +1,61 @@
+# 🧠 MNIST CNN Image Classifier - AIT736 Project
+
+This project is a digit recognition web application built using a Convolutional Neural Network (CNN) trained on the MNIST dataset. The model is deployed using Gradio and hosted on [Hugging Face Spaces](https://huggingface.co/spaces/Rushikesh-S-Ware/MNIST-CNN-Image-Classifier), allowing users to upload an image and receive a predicted digit (0-9) in real-time.
+
+## 🌐 Live Demo
+
+👉 [Check out the live demo on Hugging Face Spaces](https://huggingface.co/spaces/Rushikesh-S-Ware/MNIST-CNN-Image-Classifier)
+
+---
+
+## 📁 Project Structure
+
+| File Name | Description |
+|----------|-------------|
+| `AIT736_Project_Group3.ipynb` | Jupyter Notebook with data loading, model training, and evaluation |
+| `app.py` | Gradio app script to load model and serve predictions from uploaded images |
+| `digit_model.pth` | Trained CNN model checkpoint file |
+| `classification_report.txt` | Precision, recall, F1-score for each digit class |
+| `confusion_matrix.png` | Confusion matrix visualized for test results |
+| `training_curves.png` | Training and validation loss/accuracy graphs |
+| `requirements.txt` | Python dependencies required for the app |
+| `Final Project Presentation AIT736.pdf` | Final report of the project outlining methodology and results |
+| `AIT736_Group3_ProjectPresentation.pptx` | Supporting PowerPoint presentation |
+
+---
+
+## 📊 Project Overview
+
+- **Dataset:** [MNIST handwritten digits](http://yann.lecun.com/exdb/mnist/)
+- **Model Architecture:** CNN with 2 convolutional layers, ReLU activations, MaxPooling, and fully connected layers.
+- **Loss Function:** CrossEntropyLoss
+- **Optimizer:** Adam
+- **Accuracy Achieved:** >99% on training set, >97% on test set
+- **Deployment:** Hugging Face Spaces using Gradio interface
+- **Use Case:** Upload your handwritten digit image (28x28 grayscale or larger) and get prediction
+
+---
+
+## 🚀 How to Use
+
+1. Upload a clear image of a digit (0-9) using the web interface.
+2. The model will process the image and return the predicted digit.
+3. Try various styles of handwritten digits to test robustness.
+
+---
+
+## 📌 Highlights
+
+- Custom pre-processing to clean and invert uploaded images
+- Live hosted app—no setup required to test
+- Full code for model training and deployment provided
+- Clean, interpretable UI using Gradio
+
+---
+
+## 🛠 Setup Instructions (For Local Use)
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/MNIST-CNN-Image-Classifier.git
+   cd MNIST-CNN-Image-Classifier
